@@ -6,49 +6,7 @@ import csv
 from first_names_male import male_first
 from first_names_female import female_first
 from surnames_noble import noble_surnames
-
-commoner_surnames = [
-    "Baker",
-    "Tanner",
-    "Carter",
-    "Thatcher",
-    "Fletcher",
-    "Miller",
-    "Cooper",
-    "Shepherd",
-    "Fuller",
-    "Chandler",
-    "Brewer",
-    "Smith",
-    "Butcher",
-    "Weaver",
-    "Dyer",
-    "Collier",
-    "Barker",
-    "Sawyer",
-    "Skinner",
-    "Hunter",
-    "Slater",
-    "Cooke",
-    "Mason",
-    "Wright",
-    "Tyler",
-    "Glover",
-    "Smithson",
-    "Potter",
-    "Carpenter",
-    "Taylor",
-    "Farmer",
-    "Fisher",
-    "Reeve",
-    "Turner",
-    "Piper",
-    "Cartwright",
-    "Herdman",
-    "Plowman",
-    "Webb",
-    "Thresher",
-]
+from surnames_commoner import commoner_surnames
 
 
 def build_pools(gender, social_class):
