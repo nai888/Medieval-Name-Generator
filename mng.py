@@ -125,9 +125,9 @@ def main():
         default=5,
         help="Number of names to generate (default: 5)",
     )
-    parser.add_argument("--male", action="store_true", help="Use male first names only")
+    parser.add_argument("--male", action="store_true", help="Use male given names only")
     parser.add_argument(
-        "--female", action="store_true", help="Use female first names only"
+        "--female", action="store_true", help="Use female given names only"
     )
     parser.add_argument("--noble", action="store_true", help="Use noble surnames only")
     parser.add_argument(
@@ -141,7 +141,7 @@ def main():
     parser.add_argument(
         "--unique-full",
         action="store_true",
-        help="No exact full-name repeats in the batch",
+        help="No exact full name repeats in the batch",
     )
     parser.add_argument(
         "--seed", type=int, default=None, help="Random seed for reproducible output"
