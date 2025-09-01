@@ -1,4 +1,4 @@
-historical_male = [
+given_male = [
     "Adam",
     "Adamus",
     "Adrien",

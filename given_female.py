@@ -1,4 +1,4 @@
-historical_female = [
+given_female = [
     "Ada",
     "Adela",
     "Adelaida",

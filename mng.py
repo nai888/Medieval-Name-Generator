@@ -3,10 +3,8 @@ import argparse
 import sys
 import csv
 
-from historical_male import historical_male
-from fantasy_historical import historical_female
-from fantasy_male import fantasy_male
-from fantasy_female import fantasy_female
+from given_male import given_male
+from given_female import given_female
 from surnames_noble import noble_surnames
 from surnames_commoner import commoner_surnames
 
@@ -14,11 +12,11 @@ from surnames_commoner import commoner_surnames
 def build_pools(gender, social_class):
     # First names
     if gender == "male":
-        first_pool = historical_male
+        first_pool = given_male
     elif gender == "female":
-        first_pool = historical_female
+        first_pool = given_female
     else:
-        first_pool = historical_male + historical_female
+        first_pool = given_male + given_female
 
     # Surnames
     if social_class == "noble":
