@@ -1,4 +1,4 @@
-[
+male_first = [
     "Aelfgar",
     "Aelfhere",
     "Aelfred",
