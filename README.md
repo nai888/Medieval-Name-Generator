@@ -1,5 +1,5 @@
-# Medieval-Name-Generator
-A python CLI that generates randomized medieval English names
+# Medieval Name Generator
+A python CLI that generates randomized medieval English names.
 
 To run the generator:
 
