@@ -1,4 +1,4 @@
-fantasy_male_first = [
+fantasy_male = [
     "Adaman",
     "Adambrand",
     "Adamcock",

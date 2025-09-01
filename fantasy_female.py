@@ -1,4 +1,4 @@
-fantasy_female_first = [
+fantasy_female = [
     "Adela",
     "Adele",
     "Adelela",
