@@ -1,6 +1,8 @@
 # Medieval Name Generator
 A python CLI that generates randomized medieval English names.
 
+## Name Generator
+
 To run the generator:
 
 ```bash
@@ -57,3 +59,20 @@ Ivo Longford
 Godbeald Henleystone
 Sigmaer Cartstone
 ```
+
+## List Output
+
+Alternatively, to just output an entire list in a space-separated text file, use the `mng-list.py` file instead.
+
+- `--list mfirst` will output the entire list of male first names,
+- `--list ffirst` will output the entire list of female first names,
+- `--list clast` will output the entire list of commoner last names, and
+- `--list nlast` will output the entire list of noble last names.
+
+For example:
+
+```bash
+python3 mng-list.py --list ffirst --out ./output/ffirst.txt
+```
+
+The above command will output the entirety of the female first name list separated by spaces in a text file named `./output/ffirst.txt`.
